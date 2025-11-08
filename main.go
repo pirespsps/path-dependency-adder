@@ -23,7 +23,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	command := "export PATH=$PATH: " + path
+	command := "export PATH=$PATH:" + path
 
 	file.WriteString(command)
 
